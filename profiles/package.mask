@@ -14,3 +14,9 @@ olpc-glucose/sugar-presence-service
 olpc-glucose/sugar-toolkit
 olpc-glucose/sugar-base
 olpc-glucose/hulahop
+
+# Toffanin Mauro <toffanin.mauro@gmail.com> (24 Dic 2014)
+# Hard maskasked Etoys / Squeak modules for Glucose.
+# They are deprecated and you should use Etoys from Sugar Activities.
+dev-lang/squeak
+olpc-glucore/etoys
