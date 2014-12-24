@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<herd></herd>
+	<maintainer>
+		<email>toffanin.mauro@gmail.com</email>
+		<name>Mauro Toffanin</name>
+		<description>Maintainer. Assign bugs to him</description>
+	</maintainer>
+	<upstream>
+		<doc></doc>
+		<bugs-to>http://bugs.sugarlabs.org</bugs-to>
+	</upstream>
+	<longdescription lang="en">
+		This package is a GTK3 library that provides a set of widgets to build HIG compliant applications / interfaces capable to interact with system services like <pkg>olpc-glucose/sugar-presence</pkg> and <pkg>olpc-glucose/sugar-datastore</pkg>.
+	</longdescription>
+</pkgmetadata>
