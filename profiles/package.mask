@@ -1,0 +1,16 @@
+####################################################################
+# $Header: $
+# When you add an entry to this file, add your name, the date, and an
+# explanation of why something is getting masked
+#
+# NOTE: Please add your entry at the top!
+
+# Toffanin Mauro <toffanin.mauro@gmail.com> (24 Dic 2014)
+# Hard maskasked all Glucose core modules deprecated by upstream.
+# Beware that these packages are no more maintained Sugar Labs (OLPC),
+# and there is a good chance that they don't compile properly against
+# recent version of python 2.
+olpc-glucose/sugar-presence-service
+olpc-glucose/sugar-toolkit
+olpc-glucose/sugar-base
+olpc-glucose/hulahop
