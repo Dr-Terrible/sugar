@@ -6,7 +6,7 @@ EAPI=5
 PYTHON_COMPAT=( python2_7 )
 AUTOTOOLS_IN_SOURCE_BUILD=1
 AUTOTOOLS_AUTORECONF=1
-inherit python-r1 autotools-utils
+inherit autotools-utils python-r1
 
 DESCRIPTION="GTK3 library for Sugar Framework (Glucose)"
 HOMEPAGE="https://github.com/sugarlabs/sugar"
@@ -29,6 +29,9 @@ DEPEND="x11-libs/gtk+:3
 	media-libs/alsa-lib"
 RDEPEND="${DEPEND}"
 
+pkg_setup() {
+	python_setup
+}
 src_configure() {
 	econf $(use_enable static-libs static) \
 		$(use_enable nls) \

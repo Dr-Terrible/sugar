@@ -20,7 +20,6 @@ RESTRICT="mirror"
 
 DOCS=( COPYING NEWS )
 
-src_configure() {
-	econf \
-		${EXTRA_ECONF}
+pkg_setup() {
+	python_setup
 }

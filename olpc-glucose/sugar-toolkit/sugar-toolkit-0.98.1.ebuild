@@ -24,6 +24,9 @@ RDEPEND="dev-python/pygtk
 	x11-libs/libSM
 	media-libs/alsa-lib"
 
+pkg_setup() {
+	python_setup
+}
 src_configure() {
 	econf $(use_enable static-libs static) \
 		$(use_enable nls) \

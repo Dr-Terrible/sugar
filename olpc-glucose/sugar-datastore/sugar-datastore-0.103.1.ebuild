@@ -20,6 +20,9 @@ RESTRICT="mirror"
 
 DOCS=( AUTHORS COPYING NEWS README )
 
+pkg_setup() {
+	python_setup
+}
 src_configure() {
 	econf \
 		--disable-dependency-tracking \

@@ -20,6 +20,10 @@ RESTRICT="mirror"
 
 DOCS=( AUTHORS COPYING )
 
+pkg_setup() {
+	python_setup
+}
+
 # from version 0.102 gconf is deprecated
 src_configure() {
 	econf \
